@@ -257,5 +257,5 @@ app.register_error_handler(403, forbidden)
 
 if __name__ == "__main__":
     # app.run(host='0.0.0.0', port=5000)
-
+    db.create_all()
     app.run()
